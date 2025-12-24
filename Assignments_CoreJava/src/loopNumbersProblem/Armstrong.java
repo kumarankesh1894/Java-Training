@@ -7,16 +7,22 @@ public class Armstrong {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the Number: ");
 		int number = sc.nextInt();
+		int original = number;
 		int backUp = number;
-		int remainder=0,sum=0;
+		int remainder=0,sum=0,count=0;
 		int power=0;
 		while(number>0) {
 			remainder = number%10;
-			power = (int)Math.pow(remainder, 3);
-			sum+=power;
+			count++;
 			number/=10;
 		}
-		System.out.println("Is Armstrong: "+(sum==backUp));
+		while(backUp>0) {
+			remainder = backUp%10;
+			power = (int)Math.pow(remainder, count);
+			sum+=power;
+			backUp/=10;
+		}
+		System.out.println("Is Armstrong: "+(sum==original));
 		sc.close();
 	}
 
