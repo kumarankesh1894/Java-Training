@@ -16,6 +16,7 @@ public class Mpattern {
 			}
 			System.out.println();
 		}
+		sc.close();
 	}
 
 }

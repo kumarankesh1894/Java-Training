@@ -6,7 +6,7 @@ public class SpyNumbers {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		int number = sc.nextInt();
-		int backUp = number;
+		
 		int sum=0,remainder=0,product=1;
 		while(number>0) {
 			remainder = number%10;
@@ -16,6 +16,7 @@ public class SpyNumbers {
 		}
 		boolean isSpyNumber = (sum==product);
 		System.out.println("Is Spy Number: "+isSpyNumber);
+		sc.close();
 	}
 
 }

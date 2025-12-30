@@ -17,6 +17,7 @@ public class CheckPrimeNumber {
 			System.out.print("Non Prime");
 		}
 		else System.out.println("Prime");
+		sc.close();
 	}
 
 }

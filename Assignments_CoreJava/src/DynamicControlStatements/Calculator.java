@@ -20,6 +20,7 @@ public class Calculator {
 		
 		default: System.out.println("Provide correct Input.");
 		}
+		sc.close();
 
 	}
 

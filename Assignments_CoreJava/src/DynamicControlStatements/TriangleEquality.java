@@ -15,6 +15,7 @@ public class TriangleEquality {
 		else if(side1==side2 && side2!=side3) System.out.println("The Triangle is Isoceles Triangle.");
 		else System.out.println("The Triangle is Scalene Triangle.");
 		
+		sc.close();
 	}
 
 }

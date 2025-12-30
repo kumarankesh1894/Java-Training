@@ -6,7 +6,6 @@ public class CountofDigits {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		int number = sc.nextInt();
-		int backUp=number;
 		int count=0;
 		while(number>0) {
 			int split = number%10;

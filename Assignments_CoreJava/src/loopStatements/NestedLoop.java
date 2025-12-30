@@ -13,6 +13,8 @@ public class NestedLoop {
 			}
 			System.out.println();
 		}
+		sc.close();
+		
 	}
 
 }
