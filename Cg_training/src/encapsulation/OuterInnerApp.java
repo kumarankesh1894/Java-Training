@@ -7,6 +7,10 @@ public class OuterInnerApp {
 			Outer.Inner.display();
 			Outer.Inner obj = new Outer.Inner();
 			obj.testDisplay();
+			
+			Outer out = new Outer();
+			Outer.Inner2 inner = out.new Inner2();
+			inner.testDisplay();
 	}
 
 }
