@@ -1,4 +1,4 @@
-package Strings;
+package intermediateStringsPrograms;
 
 import java.util.Scanner;
 

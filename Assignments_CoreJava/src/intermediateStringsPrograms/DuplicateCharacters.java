@@ -1,4 +1,4 @@
-package Strings;
+package intermediateStringsPrograms;
 import java.util.*;
 public class DuplicateCharacters {
 		public static void duplicateCharacters(String string) {
